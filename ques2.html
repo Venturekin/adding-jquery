@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="jq.js">
+</script>
+ <script>
+ $(document).ready(function(){
+ $("p").click(function(){
+ $("h1").hide();
+ });
+ });
+ $(document).ready(function(){
+ $("p").dblclick(function(){
+ $("h1").show();
+ });
+ });
+ </script>
+</head>
+<body>
+ <p>click to hide and dblclick to show</p>
+<h1>la la la la la la</h1>
+</body>
+</html>
